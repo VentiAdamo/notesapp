@@ -88,44 +88,7 @@ export default function App() {
     fetchNotes();
   }
 
-  return (
+  return ("SignOut")
     
-      {({ signOut }) => (
-        
-          My Notes App
-          
-            
-              
-              
-              
-
-              
-                Create Note
-              
-            
-          
-          
-          Current Notes
-          
-            {notes.map((note) => (
-              
-                
-                  {note.name}
-                
-                {note.description}
-                {note.image && (
-                  
-                )}
-                 deleteNote(note)}
-                >
-                  Delete note
-                
-              
-            ))}
-          
-          Sign Out
-        
-      )}
     
-  );
 }
